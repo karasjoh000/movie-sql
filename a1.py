@@ -84,7 +84,7 @@ def check_empty(value):
 
 def update_table(row, cur):
     cur.execute(
-        'INSERT INTO movie VALUES({0}, {1}, {2}, {3}, {4}, {5}, '
+        'INSERT INTO movie VALUE({0}, {1}, {2}, {3}, {4}, {5}, '
         '{6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14})'.format(
             row['id'], row['budget'], str_format(row['original_title']), str_format(row['original_language']),
             str_format(row['homepage']), str_format(row['overview']), row['popularity'],
@@ -92,18 +92,31 @@ def update_table(row, cur):
             str_format(row['tagline']), str_format(row['title']), row['vote_average'], row['vote_count']))
 
     for genre in json.loads(row['genres']):
+
         cur.execute('INSERT INTO genre(id, name) '
-                    'VALUES({0}, {1}) '
+                    'VALUE({0}, {1}) '
                     'ON DUPLICATE KEY UPDATE id=id'.format(genre['id'], str_format(genre['name'])))
 
-    for genre in json.loads(row['genres']):
-        cur.execute('INSERT INTO movie_genre VALUES({0}, {1}'.format(row['id'], str_format(genre['id'])))
-
+        cur.execute('INSERT INTO movie_genre(movie_id, genre_id) '
+                    'VALUE({0}, {1})'.format(row['id'], genre['id']))
 
     for keyword in json.loads(row['keywords']):
-        cur.execute('INSERT INTO keywords '
-                    'VALUES({0}, {1})'.format(keyword['id'], str_format(keyword['name'])))
 
+        cur.execute('INSERT INTO keywords(id, keyword)'
+                    'VALUE({0}, {1})'
+                    'ON DUPLICATE KEY UPDATE id=id'.format(keyword['id'], str_format(keyword['name'])))
+
+        cur.execute('INSERT INTO movie_keywords(movie_id, keyword_id) '
+                    'VALUE({0}, {1})'.format(row['id'], keyword['id']))
+
+    for company in json.loads(row['production_companies']):
+
+        cur.execute('INSERT INTO production_companies(id, company)'
+                    'VALUES({0}, {1})'
+                    'ON DUPLICATE KEY UPDATE id=id'.format(company['id'], str_format(company['name'])))
+
+        cur.execute('INSERT INTO movie_production_companies(movie_id, company)'
+                    'VALUE({0}, {1})'.format(row['id'], company['id']))
 
 
 def main():
@@ -115,11 +128,7 @@ def main():
 
     create_tables(cur)
 
-    cur.execute('SET NAMES utf8;')
-    cur.execute('SET CHARACTER SET utf8;')
-    cur.execute('SET character_set_connection=utf8;')
-
-    reader = csv.DictReader(open('tmdb_5000_movies.csv', encoding='utf-8'), restkey='NULL')
+    reader = csv.DictReader(open('tmdb_5000_movies.csv', encoding='utf-8'))
 
     for row in reader:
         update_table(row, cur)
