@@ -58,10 +58,10 @@ def create_tables(cur):
     cur.execute('CREATE TABLE movie_production_companies('
                 'id INT AUTO_INCREMENT, '
                 'movie_id INT,'
-                'company INT,'
+                'company_id INT,'
                 'PRIMARY KEY(id),'
                 'FOREIGN KEY(movie_id) REFERENCES movie(id),'
-                'FOREIGN KEY(company) REFERENCES production_companies(id))')
+                'FOREIGN KEY(company_id) REFERENCES production_companies(id))')
 
     cur.execute('CREATE TABLE production_countries('
                 'iso_3166_1 VARCHAR(2), '
@@ -139,7 +139,7 @@ def update_table(row, cur):
                     'VALUES({0}, {1})'
                     'ON DUPLICATE KEY UPDATE id=id'.format(company['id'], str_format(company['name'])))
 
-        cur.execute('INSERT INTO movie_production_companies(movie_id, company)'
+        cur.execute('INSERT INTO movie_production_companies(movie_id, company_id)'
                     'VALUE({0}, {1})'.format(row['id'], company['id']))
 
     for country in json.loads(row['production_countries']):
