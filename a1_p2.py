@@ -6,6 +6,7 @@ def main():
     conn = pymysql.connect(host='127.0.0.1', port=3306, user='john', passwd='Jkarasev37', db='movies', )
     cur = conn.cursor()
     query = {
+
         '1': 'SELECT avg(budget) FROM movie',
 
         '2': 'SELECT title, company '
@@ -48,6 +49,7 @@ def main():
         '5': 'SELECT title, popularity '
              'FROM movie '
              'WHERE popularity > (SELECT avg(popularity) FROM movie)'
+
     }[sys.argv[1]]
 
     for count in range(0, cur.execute(query)):

@@ -77,12 +77,6 @@ def create_tables(cur):
                 'FOREIGN KEY(iso_3166_1) REFERENCES production_countries(iso_3166_1))')
 
 
-
-def open_csv(path):
-    movies = open(path, 'r')
-    return csv.DictReader(movies)
-
-
 def str_format(text):
     # return '"' + str(text.encode('ascii', 'ignore'), 'ascii').replace('"', '\\"') + '"'
     return '"' + str(text.encode('ascii', 'ignore'), 'ascii').replace('"', '\\"') + '"'
@@ -150,6 +144,7 @@ def update_table(row, cur):
 
         cur.execute('INSERT INTO movie_production_countries(movie_id, iso_3166_1)'
                     'VALUE({0}, {1})'.format(row['id'], str_format(country['iso_3166_1'])))
+
 
 def main():
 
