@@ -3,9 +3,10 @@ import sys
 
 
 def main():
+    # connect to the database
     conn = pymysql.connect(host='127.0.0.1', port=3306, user='john', passwd='Jkarasev37', db='movies', )
     cur = conn.cursor()
-    query = {
+    query = {  # determine what query to run based on args.
 
         '1': 'SELECT avg(budget) FROM movie',
 
@@ -52,12 +53,13 @@ def main():
 
     }[sys.argv[1]]
 
+    # traverse the output and put in in comma delimited form
     for count in range(0, cur.execute(query)):
-            row = list(cur.fetchone())
+            row = list(cur.fetchone())  # just get the first query
             for value in row:
-                if value == row[-1]:
+                if value == row[-1]:  # if last element in tuple, no comma needed
                     print('"'+str(value)+'"')
-                else:
+                else:  # print values and separate them by commas.
                     print('"'+str(value)+'"', end=',')
 
     conn.close()
