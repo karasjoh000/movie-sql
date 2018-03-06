@@ -2,6 +2,9 @@ import pymysql
 import csv
 import json
 
+# TODO: Create Spoken_languages TABLE, AND CHECK THAT ALL CSV ROWS ARE IN DATABASE
+
+
 # create the empty tables
 def create_tables(cur):
 
