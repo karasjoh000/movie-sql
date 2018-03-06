@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a94f8e3-c49a-4c9e-9437-d5ba76cd4e83" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change beforePath="$PROJECT_DIR$/src/a1_p1.py" afterPath="$PROJECT_DIR$/src/a1_p1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CS351_A3$a1_p2.coverage" NAME="a1_p2 Coverage Results" MODIFIED="1520058089949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS351_A3$a1.coverage" NAME="a1 Coverage Results" MODIFIED="1520283373763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS351_A3$a1.coverage" NAME="a1 Coverage Results" MODIFIED="1520374999537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,7 +44,44 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="a1_p1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/a1_p1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="182" column="37" lean-forward="true" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="37" />
+              <folding>
+                <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+                <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+                <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+                <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+                <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+                <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+                <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+                <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+                <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+                <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+                <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+                <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+                <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+                <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+                <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+                <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+                <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+                <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+                <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+                <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+                <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+                <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+                <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+                <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+                <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,6 +109,7 @@
         <option value="$PROJECT_DIR$/a1_p2.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/eff4ad81-2812-461d-86bd-fa0916ef0880/console_1.sql" />
         <option value="$PROJECT_DIR$/p2.sql" />
+        <option value="$PROJECT_DIR$/src/a1_p1.py" />
       </list>
     </option>
   </component>
@@ -119,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -127,11 +166,15 @@
               <item name="CS351_A3" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS351_A3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CS351_A3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS351_A3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,17 +286,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.76616234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42090786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57083905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41127923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20597738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08940853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.046042003" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -262,6 +305,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41127923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -306,24 +350,31 @@
         <state relative-caret-position="105">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -332,7 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -340,18 +390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="54" column="4" lean-forward="false" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1520283357000" expanded="true" signature="274:303" ph="SELECT avg(b... movie" />
-            <marker date="1520283357000" expanded="true" signature="321:915" ph="SELECT title... title" />
-            <marker date="1520283357000" expanded="true" signature="402:843" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="933:1027" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1045:1975" ph="SELECT mys.t... title" />
-            <marker date="1520283357000" expanded="true" signature="1137:1397" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1499:1753" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1993:2115" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="2081:2114" ph="SELECT avg(p... movie" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -360,24 +398,31 @@
         <state relative-caret-position="105">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -386,18 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1520283357000" expanded="true" signature="274:303" ph="SELECT avg(b... movie" />
-            <marker date="1520283357000" expanded="true" signature="321:915" ph="SELECT title... title" />
-            <marker date="1520283357000" expanded="true" signature="402:843" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="933:1027" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1045:1975" ph="SELECT mys.t... title" />
-            <marker date="1520283357000" expanded="true" signature="1137:1397" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1499:1753" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1993:2115" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="2081:2114" ph="SELECT avg(p... movie" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,7 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="40" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -414,24 +446,31 @@
         <state relative-caret-position="3552">
           <caret line="150" column="30" lean-forward="false" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -440,18 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1520283357000" expanded="true" signature="274:303" ph="SELECT avg(b... movie" />
-            <marker date="1520283357000" expanded="true" signature="321:915" ph="SELECT title... title" />
-            <marker date="1520283357000" expanded="true" signature="402:843" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="933:1027" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1045:1975" ph="SELECT mys.t... title" />
-            <marker date="1520283357000" expanded="true" signature="1137:1397" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1499:1753" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1993:2115" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="2081:2114" ph="SELECT avg(p... movie" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -460,24 +487,31 @@
         <state relative-caret-position="2415">
           <caret line="163" column="30" lean-forward="false" selection-start-line="163" selection-start-column="30" selection-end-line="163" selection-end-column="30" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -486,18 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1520283357000" expanded="true" signature="274:303" ph="SELECT avg(b... movie" />
-            <marker date="1520283357000" expanded="true" signature="321:915" ph="SELECT title... title" />
-            <marker date="1520283357000" expanded="true" signature="402:843" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="933:1027" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1045:1975" ph="SELECT mys.t... title" />
-            <marker date="1520283357000" expanded="true" signature="1137:1397" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1499:1753" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1993:2115" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="2081:2114" ph="SELECT avg(p... movie" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -508,24 +530,31 @@
         <state relative-caret-position="2415">
           <caret line="163" column="30" lean-forward="false" selection-start-line="163" selection-start-column="30" selection-end-line="163" selection-end-column="30" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -534,18 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1520283357000" expanded="true" signature="274:303" ph="SELECT avg(b... movie" />
-            <marker date="1520283357000" expanded="true" signature="321:915" ph="SELECT title... title" />
-            <marker date="1520283357000" expanded="true" signature="402:843" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="933:1027" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1045:1975" ph="SELECT mys.t... title" />
-            <marker date="1520283357000" expanded="true" signature="1137:1397" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1499:1753" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1993:2115" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="2081:2114" ph="SELECT avg(p... movie" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,24 +581,31 @@
         <state relative-caret-position="1125">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -598,24 +622,31 @@
         <state relative-caret-position="1125">
           <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -633,24 +664,31 @@
         <state relative-caret-position="1545">
           <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -667,24 +705,31 @@
         <state relative-caret-position="154">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="23" selection-end-column="35" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -708,24 +753,31 @@
         <state relative-caret-position="195">
           <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -735,24 +787,31 @@
         <state relative-caret-position="1296">
           <caret line="56" column="30" lean-forward="true" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -770,24 +829,31 @@
         <state relative-caret-position="1368">
           <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
@@ -908,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3128">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,26 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,44 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520283357000" expanded="true" signature="274:303" ph="SELECT avg(b... movie" />
-            <marker date="1520283357000" expanded="true" signature="321:915" ph="SELECT title... title" />
-            <marker date="1520283357000" expanded="true" signature="402:843" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="933:1027" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1045:1975" ph="SELECT mys.t... title" />
-            <marker date="1520283357000" expanded="true" signature="1137:1397" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1499:1753" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1993:2115" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="2081:2114" ph="SELECT avg(p... movie" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/a1_p1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <marker date="1520283357000" expanded="true" signature="161:758" ph="CREATE TABLE... movie" />
-            <marker date="1520283357000" expanded="true" signature="1053:1170" ph="CREATE TABLE... genre" />
-            <marker date="1520283357000" expanded="true" signature="1191:1480" ph="CREATE TABLE... movie_genre" />
-            <marker date="1520283357000" expanded="true" signature="1501:1625" ph="CREATE TABLE... keywords" />
-            <marker date="1520283357000" expanded="true" signature="1646:1951" ph="CREATE TABLE... movie_keywords" />
-            <marker date="1520283357000" expanded="true" signature="1972:2109" ph="CREATE TABLE... production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2130:2454" ph="CREATE TABLE... movie_production_companies" />
-            <marker date="1520283357000" expanded="true" signature="2475:2632" ph="CREATE TABLE... production_countries" />
-            <marker date="1520283357000" expanded="true" signature="2653:2996" ph="CREATE TABLE... movie_production_countries" />
-            <marker date="1520283357000" expanded="true" signature="3713:3827" ph="INSERT INTO movie... " />
-            <marker date="1520283357000" expanded="true" signature="4483:4602" ph="INSERT INTO genre... " />
-            <marker date="1520283357000" expanded="true" signature="4780:4862" ph="INSERT INTO movie_genre... " />
-            <marker date="1520283357000" expanded="true" signature="5131:5254" ph="INSERT INTO keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5438:5525" ph="INSERT INTO movie_keywords... " />
-            <marker date="1520283357000" expanded="true" signature="5844:5980" ph="INSERT INTO production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6190:6288" ph="INSERT INTO movie_production_companies... " />
-            <marker date="1520283357000" expanded="true" signature="6607:6765" ph="INSERT INTO production_countries... " />
-            <marker date="1520283357000" expanded="true" signature="6993:7091" ph="INSERT INTO movie_production_countries... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,7 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="16" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,17 +1016,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/a1_p1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="182" column="37" lean-forward="true" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="37" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1520283357000" expanded="true" signature="274:303" ph="SELECT avg(b... movie" />
-            <marker date="1520283357000" expanded="true" signature="321:915" ph="SELECT title... title" />
-            <marker date="1520283357000" expanded="true" signature="402:843" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="933:1027" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1045:1975" ph="SELECT mys.t... title" />
-            <marker date="1520283357000" expanded="true" signature="1137:1397" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1499:1753" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="1993:2115" ph="SELECT title... movie" />
-            <marker date="1520283357000" expanded="true" signature="2081:2114" ph="SELECT avg(p... movie" />
+            <marker date="1520375013000" expanded="true" signature="246:843" ph="CREATE TABLE... movie" />
+            <marker date="1520375013000" expanded="true" signature="1138:1255" ph="CREATE TABLE... genre" />
+            <marker date="1520375013000" expanded="true" signature="1276:1565" ph="CREATE TABLE... movie_genre" />
+            <marker date="1520375013000" expanded="true" signature="1586:1710" ph="CREATE TABLE... keywords" />
+            <marker date="1520375013000" expanded="true" signature="1731:2036" ph="CREATE TABLE... movie_keywords" />
+            <marker date="1520375013000" expanded="true" signature="2057:2194" ph="CREATE TABLE... production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2215:2539" ph="CREATE TABLE... movie_production_companies" />
+            <marker date="1520375013000" expanded="true" signature="2560:2717" ph="CREATE TABLE... production_countries" />
+            <marker date="1520375013000" expanded="true" signature="2738:3081" ph="CREATE TABLE... movie_production_countries" />
+            <marker date="1520375013000" expanded="true" signature="3102:3252" ph="CREATE TABLE... spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3424" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3460" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3523" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="3273:3605" ph="CREATE TABLE... movie_spoken_languages" />
+            <marker date="1520375013000" expanded="true" signature="4321:4435" ph="INSERT INTO movie... " />
+            <marker date="1520375013000" expanded="true" signature="5091:5210" ph="INSERT INTO genre... " />
+            <marker date="1520375013000" expanded="true" signature="5388:5470" ph="INSERT INTO movie_genre... " />
+            <marker date="1520375013000" expanded="true" signature="5739:5862" ph="INSERT INTO keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6046:6133" ph="INSERT INTO movie_keywords... " />
+            <marker date="1520375013000" expanded="true" signature="6452:6588" ph="INSERT INTO production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="6798:6896" ph="INSERT INTO movie_production_companies... " />
+            <marker date="1520375013000" expanded="true" signature="7215:7373" ph="INSERT INTO production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="7676:7774" ph="INSERT INTO movie_production_countries... " />
+            <marker date="1520375013000" expanded="true" signature="8001:8151" ph="INSERT INTO spoken_languages... " />
+            <marker date="1520375013000" expanded="true" signature="8453:8546" ph="INSERT INTO movie_spoken_languages... " />
           </folding>
         </state>
       </provider>
