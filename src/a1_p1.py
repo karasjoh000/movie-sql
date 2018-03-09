@@ -25,19 +25,19 @@ def create_tables(cur):
                 'title VARCHAR(100), '
                 'vote_average FLOAT, '
                 'vote_count DOUBLE, '
-                'PRIMARY KEY(id))'
-                'CHARACTER SET utf8mb3')
+                'PRIMARY KEY(id))')
 
     # all columns that where not atomic, where split into two tables.
     # One table was used to store specific information like genres and their id's
     # or keywords and their id's. The other table was used to show how the first
     # table relates to the movie table.
 
+    # see written report for diagram.
+
     cur.execute('CREATE TABLE genre('
                 'id INT,'
                 'name VARCHAR(50), '
-                'PRIMARY KEY(id))'
-                'CHARACTER SET utf8mb3')
+                'PRIMARY KEY(id))')
 
     cur.execute('CREATE TABLE movie_genre('
                 'id INT AUTO_INCREMENT,'
@@ -45,14 +45,12 @@ def create_tables(cur):
                 'genre_id INT,'
                 'PRIMARY KEY(id),'
                 'FOREIGN KEY(movie_id) REFERENCES movie(id),'
-                'FOREIGN KEY(genre_id) REFERENCES genre(id))'
-                'CHARACTER SET utf8mb3')
+                'FOREIGN KEY(genre_id) REFERENCES genre(id))')
 
     cur.execute('CREATE TABLE keywords('
                 'id INT, '
                 'keyword VARCHAR(50), '
-                'PRIMARY KEY(id))'
-                'CHARACTER SET utf8mb3')
+                'PRIMARY KEY(id))')
 
     cur.execute('CREATE TABLE movie_keywords('
                 'id INT AUTO_INCREMENT, '
@@ -60,14 +58,12 @@ def create_tables(cur):
                 'keyword_id INT, '
                 'PRIMARY KEY(id), '
                 'FOREIGN KEY(movie_id) REFERENCES movie(id), '
-                'FOREIGN KEY (keyword_id) REFERENCES keywords(id))'
-                'CHARACTER SET utf8mb3')
+                'FOREIGN KEY (keyword_id) REFERENCES keywords(id))')
 
     cur.execute('CREATE TABLE production_companies('
                 'id INT, '
                 'company VARCHAR(100), '
-                'PRIMARY KEY(id))'
-                'CHARACTER SET utf8mb3')
+                'PRIMARY KEY(id))')
 
     cur.execute('CREATE TABLE movie_production_companies('
                 'id INT AUTO_INCREMENT, '
@@ -75,14 +71,12 @@ def create_tables(cur):
                 'company_id INT,'
                 'PRIMARY KEY(id),'
                 'FOREIGN KEY(movie_id) REFERENCES movie(id),'
-                'FOREIGN KEY(company_id) REFERENCES production_companies(id))'
-                'CHARACTER SET utf8mb3')
+                'FOREIGN KEY(company_id) REFERENCES production_companies(id))')
 
     cur.execute('CREATE TABLE production_countries('
                 'iso_3166_1 VARCHAR(2), '
                 'cname VARCHAR(50), '
-                'PRIMARY KEY(iso_3166_1))'
-                'CHARACTER SET utf8mb3')
+                'PRIMARY KEY(iso_3166_1))')
 
     cur.execute('CREATE TABLE movie_production_countries('
                 'id INT AUTO_INCREMENT, '
@@ -90,14 +84,12 @@ def create_tables(cur):
                 'iso_3166_1 VARCHAR(2), '
                 'PRIMARY KEY(id), '
                 'FOREIGN KEY(movie_id) REFERENCES movie(id), '
-                'FOREIGN KEY(iso_3166_1) REFERENCES production_countries(iso_3166_1))'
-                'CHARACTER SET utf8mb3')
+                'FOREIGN KEY(iso_3166_1) REFERENCES production_countries(iso_3166_1))')
 
     cur.execute('CREATE TABLE spoken_languages('
                 'iso_639_1 VARCHAR(2), '
                 'name VARCHAR(50), '
-                'PRIMARY KEY(iso_639_1))'
-                'CHARACTER SET utf8mb3')
+                'PRIMARY KEY(iso_639_1))')
 
     cur.execute('CREATE TABLE movie_spoken_languages('
                 'id INT AUTO_INCREMENT, '
@@ -105,8 +97,7 @@ def create_tables(cur):
                 'iso_639_1 VARCHAR(10), '
                 'PRIMARY KEY(id), '
                 'FOREIGN KEY(movie_id) REFERENCES movie(id), '
-                'FOREIGN KEY(iso_639_1) REFERENCES spoken_languages(iso_639_1))'
-                'CHARACTER SET utf8mb3')
+                'FOREIGN KEY(iso_639_1) REFERENCES spoken_languages(iso_639_1))')
 
 
 # update each time a row is received from the csv.
@@ -189,24 +180,20 @@ def update_table(row, cur):
 
 
 def main():
+
     # connect to the database
     conn = pymysql.connect(host='127.0.0.1', port=3306, user='john', passwd='Jkarasev37', db='movies',
-                           charset='utf8mb4')
+                           charset='utf8')
     cur = conn.cursor()
+
+    # cur.execute('ALTER DATABASE movies CHARACTER SET utf8 COLLATE utf8_general_ci')
+    # conn.commit()
 
     # create empty tables
     create_tables(cur)
 
-    # set to 3 byte unicode
-
-#    cur.execute("SET NAMES 'utf8mb3'")
-#    cur.execute("SET CHARACTER SET utf8mb3")
-#    cur.execute("SET character_set_connection=utf8mb3")
-
     # open csv reader
     reader = csv.DictReader(open('src/tmdb_5000_movies.csv', encoding='utf-8'))
-
-    # cur.execute('ALTER DATABASE movies CHARACTER SET utf8 COLLATE utf8_general_ci')
 
     # for each row in csv, update database
     for row in reader:
