@@ -1,3 +1,16 @@
+"""
+    John Karasev
+
+                 CS351 Intro To DB Systems
+
+                 SPRING 2018 WSUV
+
+                 Assignment #3
+                 This script takes the data from the csv containing information about movies and puts it
+                 into a relational database making sure that all tables are at least in 2nd Normal Form.
+
+"""
+
 import pymysql
 import csv
 import json
@@ -8,7 +21,7 @@ import json
 
 # create the empty tables
 def create_tables(cur):
-    # stores all columns that where atomic in the csv
+    # Stores all columns here that where atomic in the csv
     cur.execute('CREATE TABLE movie('
                 'id INT,'
                 'budget INT,'
@@ -32,7 +45,7 @@ def create_tables(cur):
     # or keywords and their id's. The other table was used to show how the first
     # table relates to the movie table.
 
-    # see written report for diagram.
+    # see written report for diagram (It will be a much better explanation).
 
     cur.execute('CREATE TABLE genre('
                 'id INT,'
@@ -121,6 +134,7 @@ def update_table(row, cur):
                     'VALUE(%s, %s) '
                     'ON DUPLICATE KEY UPDATE id=id',
                     list(map(lambda x: x if x else None, [genre['id'], genre['name']])))
+        # Empty strings are false. If None, puts a null into table.
 
         # update movie_genre with foreign keys to show what genres belong to the movie in the current row.
         cur.execute('INSERT INTO movie_genre(movie_id, genre_id) '
@@ -164,7 +178,6 @@ def update_table(row, cur):
                     'VALUE(%s, %s)', list(map(lambda x: x if x else None, [row['id'], country['iso_3166_1']])))
 
     for language in json.loads(row['spoken_languages']):
-
         # update spoken_languages table on duplicates to not store a country more than once
         cur.execute('INSERT INTO spoken_languages(iso_639_1, name) '
                     'VALUE(%s, %s)'
@@ -180,14 +193,15 @@ def update_table(row, cur):
 
 
 def main():
-
     # connect to the database
     conn = pymysql.connect(host='127.0.0.1', port=3306, user='john', passwd='Jkarasev37', db='movies',
                            charset='utf8')
     cur = conn.cursor()
 
-    # cur.execute('ALTER DATABASE movies CHARACTER SET utf8 COLLATE utf8_general_ci')
-    # conn.commit()
+    # Make sure database is in UTF8.
+    # This automatically changes tables to the correct utf8. In this example text is in utf8mb3 (3 byte unicode).
+    cur.execute('ALTER DATABASE movies CHARACTER SET utf8 COLLATE utf8_general_ci')
+    conn.commit()  # commit to make sure this query is updated to database.
 
     # create empty tables
     create_tables(cur)
@@ -199,7 +213,7 @@ def main():
     for row in reader:
         update_table(row, cur)
 
-    # save the changes
+    # save the changes in database
     conn.commit()
 
     conn.close()
