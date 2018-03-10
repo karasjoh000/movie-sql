@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1520665218 "hw3.tex" "./out/hw3.pdf" "hw3" 1520665219
-  "./out/hw3.aux" 1520665219 180 9d1143c2e5cfdb40be6b531816303e48 ""
+["pdflatex"] 1520715093 "hw3.tex" "./out/hw3.pdf" "hw3" 1520715094
+  "./out/hw3.aux" 1520715094 180 9d1143c2e5cfdb40be6b531816303e48 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/courier/pcrb7t.tfm" 1480098688 960 4ab65358b8406f30ef5496c8c096d22b ""
@@ -76,11 +76,11 @@
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "figures/dbfig.pdf" 1520655211 393361 296655f00aff3177116d7256693738cb ""
-  "hw3.tex" 1520665217 4597 418c6f5fcb1507cbf2927c270bfaa3fe ""
-  "out//hw3.aux" 1520665219 180 9d1143c2e5cfdb40be6b531816303e48 ""
+  "hw3.tex" 1520715092 7290 dd286302baa7bdb022cae377b0b28158 ""
+  "out//hw3.aux" 1520715094 180 9d1143c2e5cfdb40be6b531816303e48 ""
   (generated)
   "out//hw3.aux"
-  "out//hw3.log"
-  "./out/hw3.log"
-  "./out/hw3.pdf"
   "out//hw3.pdf"
+  "./out/hw3.pdf"
+  "./out/hw3.log"
+  "out//hw3.log"

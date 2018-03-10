@@ -27,22 +27,78 @@
 	\vspace{2cm}\\
 
 	Above are all the schemas and their relationships with other schemas.
-	PK stands for primary key and FK stands for foreign key. All the entries
-	in the movie csv that where not atomic where broken down into
+	PK stands for primary key and FK stands for foreign key. All the
+	entries in the movie csv that where not atomic where broken down into
 	two separate tables. Since atomic columns like \textbf{genre} and
 	\textbf{production\_companies} had a many-to-many relationship with the
 	movie table, the first table was the relationship table and the
-	second table contained specific information like genre id and genre name.
-	All tables are in BCNF because (1) all attributes are atomic, (2) all
-	non-key attributes depend only on the candidate key, (3)
+	second table contained specific information like genre id and genre
+	name. All tables are in BCNF because (1) all attributes are atomic, (2)
+	all non-key attributes depend only on the candidate key, (3)
 	and in all $X \rightarrow Y$ FD's, $X$ is a candidate key. For example,
-	all attributes in the \textbf{movie} table only depend on the candidate key id
-	and all attributes in  \textbf{movie\_genre} table only depend on the candidate
-	key id. This satisfies BCNF condition because the attribute on the right
-	side is a candidate key.
+	all attributes in the \textbf{movie} table only depend on the
+	candidate key id and all attributes in  \textbf{movie\_genre} table
+	only depend on the candidate key id. This satisfies BCNF condition
+	because the attribute on the right side is a candidate key.
 
 \pagebreak
-HELLO
+
+Refer to figure above for table attributes, primary key, and foreign keys.
+
+\begin{enumerate}
+	\item{\textbf{movie :}}
+		Contains all the columns that where atomic in the csv file.
+		This table is in BCNF because in the \textbf{movie} FD
+		$X \rightarrow A,B,C,D,E,F,G,H,I,J,K,L,M,N$
+		the left side $X$ is a candidate key \textbf{id}. This satisfies
+		the BCNF condition.
+	\item{\textbf{movie\_genre :}}
+		Relationship table between many-to-many relationship of
+		\textbf{genre} and \textbf{movie}. Contains a unique
+		\textbf{id}, \textbf{movie\_id}, and \textbf{genre\_id} where
+		\textbf{movie\_id} and \textbf{genre\_id} reference \textbf{id}
+		in \textbf{id} in \textbf{movie} and \textbf{id} in
+		\textbf{id} in \textbf{genre} respectively. This table is
+		in BCNF because in the FD $X \rightarrow Y,Z$ $X$ is the
+		candidate key. This satisfies the BCNF condition.
+	\item{\textbf{genre :}}
+		Contains all the genre names and their id that where found
+		in the genre column from all rows. \textbf{movie\_genre}
+		references this table. Also in BCNF because the FD
+		$X \rightarrow Z$ satisfies BCNF condition because $X$ is a
+		candidate key.
+	\item{\textbf{spoken\_languages :}}
+		Contains all the spoken languages id's and names that were
+		encountered in the csv. Also in BCNF, see \textbf{genre} for
+		explanation.
+	\item{\textbf{movie\_spoken\_languages :}}
+		Relationship table for the many-to-many relationship between
+		\textbf{spoken\_languages} and \textbf{movie}. In BCNF. See
+		\textbf{movie\_genre} for explanation.
+	\item{\textbf{keywords :}}
+		Contains all keyword names and id's encountered in csv.
+		In BCNF. See \textbf{genre} for explanation.
+	\item{\textbf{movie\_keywords :}}
+		All keywords and their repective id's that where encountered in
+		the csv where stored here. In BCNF. See
+		\textbf{movie\_genre} for explanation.
+	\item{\textbf{production\_countries :}}
+		Contains the countries id and names that where encountered in
+		the csv. In BCNF, see \textbf{genre :} for explanantion.
+	\item{\textbf{movie\_production\_countries :}}
+		Relationship table for the many-to-many relationship between
+		\textbf{movie} and \textbf{production\_countries}. In BCNF, see
+		\textbf{movie\_genre} for explanation.
+	\item{\textbf{production\_companies :}}
+		Contains all production companies and their respective id's that
+		where encountered in the \textbf{production\_companies} row of
+		csv file. Similar to \textbf{genre} also in BCNF.
+	\item{\textbf{movie\_production\_companies :}}
+		Relationship table for the many-to-many relationship between
+		\textbf{movie} and \textbf{production\_companies}. Like all
+		other relationship tables it is also in BCNF.
+\end{enumerate}
+
 \pagebreak
 \section{Queries}
 \begin{enumerate}
