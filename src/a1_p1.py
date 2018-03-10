@@ -201,7 +201,6 @@ def main():
     # Make sure database is in UTF8.
     # This automatically changes tables to the correct utf8. In this example text is in utf8mb3 (3 byte unicode).
     cur.execute('ALTER DATABASE movies CHARACTER SET utf8 COLLATE utf8_general_ci')
-    conn.commit()  # commit to make sure this query is updated to database.
 
     # create empty tables
     create_tables(cur)
