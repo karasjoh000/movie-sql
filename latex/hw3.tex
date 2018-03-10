@@ -23,16 +23,26 @@
 
 \section{Data}
 
-        \adjustbox{valign=t}{\includegraphics[width=15cm]{./figures/uml.pdf}}
+        \adjustbox{valign=t}{\includegraphics[width=15cm]{./figures/dbfig.pdf}}
 	\vspace{2cm}\\
+
 	Above are all the schemas and their relationships with other schemas.
-	PK stands for primary key and FK stands for foriegn key. All the entries
-	in the movies csv that where not atomic, I broke them down into two seperate tables.
-	One those two tables I used to show the relationship to the \textbf{movie} table and the other
-	one just kept specific information such as \textbf{keywords}, \textbf{genre}, and \textbf{production\_companies}.
-	All tables are in BCNF because (1) all atributes are atomic, (2) all non-key attributes
-	depend only on the candidate key, (3) and in all $X \rightarrow Y$ FD's, $X$ is a candidate
-	key. For example, all atributes in the \textbf{movie} table only depend on the candidate key \textbf{id}.
+	PK stands for primary key and FK stands for foreign key. All the entries
+	in the movie csv that where not atomic where broken down into
+	two separate tables. Since atomic columns like \textbf{genre} and
+	\textbf{production\_companies} had a many-to-many relationship with the
+	movie table, the first table was the relationship table and the
+	second table contained specific information like genre id and genre name.
+	All tables are in BCNF because (1) all attributes are atomic, (2) all
+	non-key attributes depend only on the candidate key, (3)
+	and in all $X \rightarrow Y$ FD's, $X$ is a candidate key. For example,
+	all attributes in the \textbf{movie} table only depend on the candidate key id
+	and all attributes in  \textbf{movie\_genre} table only depend on the candidate
+	key id. This satisfies BCNF condition because the attribute on the right
+	side is a candidate key.
+
+\pagebreak
+HELLO
 \pagebreak
 \section{Queries}
 \begin{enumerate}

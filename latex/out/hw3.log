@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 MAR 2018 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  9 MAR 2018 23:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -248,18 +248,22 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count109
- <./figures/uml.pdf, id=1, 1104.125pt x 790.955pt>
-File: ./figures/uml.pdf Graphic file (type pdf)
- <use ./figures/uml.pdf>
-Package pdftex.def Info: ./figures/uml.pdf used on input line 26.
-(pdftex.def)             Requested size: 426.79134pt x 305.74362pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 34.
+ <./figures/dbfig.pdf, id=1, 948.54375pt x 913.4125pt>
+File: ./figures/dbfig.pdf Graphic file (type pdf)
+ <use ./figures/dbfig.pdf>
+Package pdftex.def Info: ./figures/dbfig.pdf used on input line 26.
+(pdftex.def)             Requested size: 426.79134pt x 410.97607pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 38.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -268,27 +272,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./figures/uml.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 40.
+ <./figures/dbfig.pdf>] [2]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 50.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <9> not available
-(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 41.
- [2] [3] (./out//hw3.aux) ) 
+(Font)              Font shape `OT1/pcr/b/n' tried instead on input line 51.
+ [3] [4] (./out//hw3.aux) ) 
 Here is how much of TeX's memory you used:
  4381 strings out of 492995
- 64506 string characters out of 6132704
+ 64516 string characters out of 6132704
  206277 words of memory out of 5000000
  7861 multiletter control sequences out of 15000+600000
  8621 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,72p,238b,1250s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on ./out//hw3.pdf (3 pages, 267324 bytes).
+Output written on ./out//hw3.pdf (4 pages, 477499 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
