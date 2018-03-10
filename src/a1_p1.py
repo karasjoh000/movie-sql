@@ -107,7 +107,7 @@ def create_tables(cur):
     cur.execute('CREATE TABLE movie_spoken_languages('
                 'id INT AUTO_INCREMENT, '
                 'movie_id INT, '
-                'iso_639_1 VARCHAR(10), '
+                'iso_639_1 VARCHAR(2), '
                 'PRIMARY KEY(id), '
                 'FOREIGN KEY(movie_id) REFERENCES movie(id), '
                 'FOREIGN KEY(iso_639_1) REFERENCES spoken_languages(iso_639_1))')
