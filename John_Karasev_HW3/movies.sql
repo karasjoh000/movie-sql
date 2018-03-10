@@ -228,7 +228,7 @@ DROP TABLE IF EXISTS `movie_spoken_languages`;
 CREATE TABLE `movie_spoken_languages` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `movie_id` int(11) DEFAULT NULL,
-  `iso_639_1` varchar(10) DEFAULT NULL,
+  `iso_639_1` varchar(2) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `movie_id` (`movie_id`),
   KEY `iso_639_1` (`iso_639_1`),
@@ -328,4 +328,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-03-09 17:07:07
+-- Dump completed on 2018-03-10 13:16:12

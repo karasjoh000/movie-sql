@@ -1,4 +1,6 @@
-Create a database with any user. Update the connection details in the connect() part in both a1_p1.py and a1_p2.py.
+Create a database with any user. Update the connection details in the connect() part in both a1_p1.py and a1_p2.py
+with the username and password you created the database with, the port number mysql is running on, and
+as well as the name of the database you created.
 
 
 To run the first part enter:
